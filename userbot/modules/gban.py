@@ -52,7 +52,7 @@ async def gben(userbot):
     else:
         dark = await dc.edit("`Memproses Global Banned Jamet..`")
     me = await userbot.client.get_me()
-    await dark.edit("`⚜️ Global Banned Akan Aktif..`")
+    await dark.edit("`⚡𝗚𝗹𝗼𝗯𝗮𝗹 𝗕𝗮𝗻𝗻𝗲𝗱 𝗔𝗸𝘁𝗶𝗳..`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     await userbot.get_chat()
     a = b = 0
