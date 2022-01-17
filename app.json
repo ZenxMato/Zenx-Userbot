@@ -15,11 +15,11 @@
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
+      "description": "Tidak perlu di isi tidak apa-apa",
       "required": false
     },
     "BOT_USERNAME": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
+      "description": "Tidak perlu di isi tidak apa-apa",
       "required": false
     },
      "STRING_SESSION": {
