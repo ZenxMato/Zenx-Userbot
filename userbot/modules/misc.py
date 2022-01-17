@@ -119,11 +119,11 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"╔─────────────╗\n"
+        f"╔───────────────╗\n"
         f"╠ ⚡ 𝙕𝙚𝙣 - 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 \n"
         f"╠ ⚡ ᴏᴡɴᴇʀ: [𝐙𝐞𝐧](t.me/ZenxMato)\n"
-        f"╠ ⚡ ᴅᴇᴘʟᴏʏ ʜᴇʀᴏᴋᴜ:** [𝐙𝐞𝐧-Userbot](https://github.com/ZenxMato/Zenx-Userbot)\n"
-        f"╚─────────────╝\n"
+        f"╠ ⚡ ʀᴇᴘᴏ: [𝗗𝗘𝗣𝗟𝗢𝗬](https://github.com/ZenxMato/Zenx-Userbot)\n"
+        f"╚───────────────╝\n"
     )
 
 
