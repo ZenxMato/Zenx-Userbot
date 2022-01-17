@@ -188,17 +188,17 @@ async def dyno_usage(dyno):
         AppMinutes = math.floor(AppQuotaUsed % 60)
 
         await xx.edit(
-            "✥ **Informasi Dyno Heroku :**"
-            "\n╔════════════════════╗\n"
-            f" ➠ **Penggunaan Dyno** `{app.name}` :\n"
-            f"     •  `{AppHours}`**Jam**  `{AppMinutes}`**Menit**  "
+            "🚀 **S̶t̶a̶t̶s̶ ̶D̶y̶n̶o̶ ̶H̶e̶r̶o̶k̶u̶ :**"
+            "\n╔══════════════════╗\n"
+            f" ➾ ⚡ 𝗣𝗲𝗺𝗮𝗸𝗮𝗶𝗮𝗻 𝗗𝘆𝗻𝗼 `{app.name}` :\n"
+            f"     ❥  `{AppHours}`**Jam**  `{AppMinutes}`**Menit**  "
             f"**|**  [`{AppPercentage}`**%**]"
-            "\n◖════════════════════◗\n"
-            " ➠ **Sisa kuota dyno bulan ini** :\n"
-            f"     •  `{hours}`**Jam**  `{minutes}`**Menit**  "
+            "\n◖═══════════════════◗\n"
+            " ➾ ⚡ 𝗦𝗶𝘀𝗮 𝗗𝘆𝗻𝗼 𝗕𝘂𝗹𝗮𝗻 𝗶𝗻𝗶 :\n"
+            f"     ❥  `{hours}`**Jam**  `{minutes}`**Menit**  "
             f"**|**  [`{percentage}`**%**]"
             "\n╚════════════════════╝\n"
-            f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
+            f"⚡ 𝗗𝘆𝗻𝗼 𝗔𝗸𝗮𝗻 𝗛𝗮𝗯𝗶𝘀 `{day}` 𝗛𝗮𝗿𝗶 𝗟𝗮𝗴𝗶"
         )
         return True
 
